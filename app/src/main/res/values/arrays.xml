@@ -1,7 +1,7 @@
 <resources>
     <!-- Source Preference -->
     <string-array name="sources_entries">
-        <item>Yugen</item>
+        <item>Gogoanime</item>
 <!--        <item>Zoro</item>-->
         <item>AllAnime</item>
 <!--        <item>Enime</item>-->
@@ -14,7 +14,7 @@
     </string-array>
 
     <string-array name="sources_values">
-        <item>yugen</item>
+        <item>Gogoanime</item>
 <!--        <item>zoro</item>-->
         <item>allanime</item>
 <!--        <item>enime</item>-->

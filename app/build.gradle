@@ -10,7 +10,7 @@ plugins {
 
 android {
 
-    namespace 'com.talent.animescrap'
+    namespace 'com.homen.anicloud'
     compileSdk 34
 
     defaultConfig {
@@ -19,7 +19,7 @@ android {
         targetSdk 34
         versionCode 18
         versionName "2.5.3"
-        archivesBaseName = "AnimeScrap"
+        archivesBaseName = "AniCloud"
 
         kapt {
             arguments {

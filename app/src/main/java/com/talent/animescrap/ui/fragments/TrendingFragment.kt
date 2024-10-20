@@ -23,7 +23,7 @@ class TrendingFragment : Fragment() {
     private val selectedSource by lazy {
         PreferenceManager
             .getDefaultSharedPreferences(requireContext())
-            .getString("source", "yugen")
+            .getString("source", "gogoanime")
     }
     private val rvAdapter by lazy {
         AnimeRecyclerAdapter(if (selectedSource == "animepahe" || selectedSource == "kiss_kh") "landscape card" else "portrait card")
